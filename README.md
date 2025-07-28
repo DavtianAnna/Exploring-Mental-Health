@@ -8,7 +8,7 @@ This is a **binary classification** problem, where the model aims to predict whe
 
 ## 🗂️ Project Structure
 
-՝՝՝
+```
 
 project-root/
 ├── 📄 mental_health.ipynb # Main notebook: full pipeline from preprocessing to model training & submission.
@@ -18,8 +18,7 @@ project-root/
 ├── 🚀 submission.csv # Final output predictions for Kaggle.
 └── 📜 README.md # Project documentation.
 
-
-՝՝՝
+```
 
 
 ---
@@ -90,7 +89,7 @@ The `mental_health.ipynb` notebook includes the following steps:
 ### 6. 📤 Prediction & Submission
 - Final predictions generated on the test dataset.
 - Used `.predict_proba()` if required for probability output or `.predict()` for binary class.
-- Saved results in `submission.csv` for Kaggle upload.
+- Saved results in `sub.csv` for Kaggle upload.
 
 ---
 
@@ -98,7 +97,7 @@ The `mental_health.ipynb` notebook includes the following steps:
 
 | Model            | Algorithm         | Evaluation Metric | Cross-Validation | Output File       |
 |------------------|-------------------|-------------------|------------------|-------------------|
-| SVC (with scaling) | Support Vector Machine | Accuracy, F1-score | 3-Fold CV via GridSearch | `submission.csv` |
+| SVC (with scaling) | Support Vector Machine | Accuracy, F1-score | 3-Fold CV via GridSearch | `sub.csv` |
 
 *Note: Accuracy depends heavily on data preprocessing and feature encoding consistency.*
 
