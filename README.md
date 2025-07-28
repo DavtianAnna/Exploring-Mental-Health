@@ -11,12 +11,12 @@ This is a **binary classification** problem, where the model aims to predict whe
 ```
 
 project-root/
-├── 📄 mental_health.ipynb # Main notebook: full pipeline from preprocessing to model training & submission.
-├── 📊 train.csv # Training dataset including target (Depression).
-├── 🧪 test.csv # Test dataset for prediction.
-├── 📝 sample_submission.csv # Kaggle submission format.
-├── 🚀 submission.csv # Final output predictions for Kaggle.
-└── 📜 README.md # Project documentation.
+├── 📄 mental_health.ipynb      # Main notebook: full pipeline from preprocessing to model training & submission.
+├── 📊 train.csv                # Training dataset including target (Depression).
+├── 🧪 test.csv                 # Test dataset for prediction.
+├── 📝 sample_submission.csv    # Kaggle submission format.
+├── 🚀 sub.csv                  # Final output predictions for Kaggle.
+└── 📜 README.md                # Project documentation.
 
 ```
 
